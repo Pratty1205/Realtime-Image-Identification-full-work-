@@ -1,0 +1,22 @@
+h3 {
+    font-size: 25px!important;
+}
+
+.btn-success:hover {
+    background-color: red;
+}
+
+canvas {
+    animation-name: ShadowEffect;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ShadowEffect {
+    from {
+        box-shadow: 2px 2px 38px rgb(0, 255, 170);
+    }
+    to {
+        box-shadow: 2px 2px 38px rgb(119, 0, 255);
+    }
+}
